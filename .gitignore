@@ -1,0 +1,76 @@
+# .gitignore para proyecto Python (entradas comunes para Windows y VSCode)
+# Generado por asistente — incluye patrones para entornos virtuales, caches, IDEs y archivos sensibles
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+.Python
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.coverage
+.cache
+.tox/
+.pytest_cache/
+
+# Pyenv
+.python-version
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# IDEs
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Environment / secrets
+.env
+.env.*
+instance/
+secrets.json
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Compiled extensions
+*.so
+
+# Windows shortcuts
+*.lnk
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Optional: archivos de datos locales (descomenta si quieres ignorar)
+# Facturacion.csv
+# *.csv
+.png
