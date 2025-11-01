@@ -2,13 +2,9 @@
 
 Pasos mínimos para levantar el proyecto en Windows (PowerShell):
 
-1) Abrir PowerShell y situarse en la raíz del proyecto:
 
-```powershell
-Set-Location -Path "C:\PERSONAL\UMA\Modulo 4"
-```
 
-2) Crear (si no existe) y activar el entorno virtual `.venv`:
+1) Crear (si no existe) y activar el entorno virtual `.venv`:
 
 ```powershell
 python -m venv .venv
